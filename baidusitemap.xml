@@ -4,12 +4,27 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/20/markdown_format/</loc>
-    <lastmod>2018-06-20T14:50:12.212Z</lastmod>
+    <loc>http://yoursite.com/2018/06/22/Git_Github_npm/</loc>
+    <lastmod>2018-06-22T05:07:45.439Z</lastmod>
     <data>
         <display>
-        <title>Second blog</title>
-        <pubTime>2018-06-20T14:49:09.662Z</pubTime>
+        <title>Git Github npm Tips</title>
+        <pubTime>2018-06-22T05:07:45.437Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/06/22/markdown_format/</loc>
+    <lastmod>2018-06-22T05:04:15.011Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown 语法测试</title>
+        <pubTime>2018-06-22T05:04:15.010Z</pubTime>
         
          
            
