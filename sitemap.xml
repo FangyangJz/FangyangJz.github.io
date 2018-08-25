@@ -2,30 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/08/02/P3_ubuntu_setting/</loc>
+    <loc>http://yoursite.com/2018/06/20/p0_hello-world/</loc>
     
-    <lastmod>2018-08-25T15:06:11.092Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/06/22/P2_Git_Github_npm/</loc>
-    
-    <lastmod>2018-08-25T15:06:03.028Z</lastmod>
+    <lastmod>2018-08-25T15:42:07.610Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/06/22/P1_markdown_format/</loc>
+    <loc>http://yoursite.com/2018/08/25/p4_virtualbox_androidx86/</loc>
     
-    <lastmod>2018-08-25T15:05:49.804Z</lastmod>
+    <lastmod>2018-08-25T15:39:24.909Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/06/20/P0_hello-world/</loc>
+    <loc>http://yoursite.com/2018/08/02/p3_ubuntu_setting/</loc>
     
-    <lastmod>2018-08-25T15:05:42.450Z</lastmod>
+    <lastmod>2018-08-25T15:39:18.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/22/p2_Git_Github_npm/</loc>
+    
+    <lastmod>2018-08-25T15:39:08.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/22/p1_markdown_format/</loc>
+    
+    <lastmod>2018-08-25T15:38:56.058Z</lastmod>
     
   </url>
   

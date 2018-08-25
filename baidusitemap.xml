@@ -4,11 +4,41 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/08/02/P3_ubuntu_setting/</loc>
-    <lastmod>2018-08-25T15:06:11.092Z</lastmod>
+    <loc>http://yoursite.com/2018/06/20/p0_hello-world/</loc>
+    <lastmod>2018-08-25T15:42:07.610Z</lastmod>
     <data>
         <display>
-        <title></title>
+        <title>Hello Worldd</title>
+        <pubTime>2018-06-20T12:51:40.048Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/25/p4_virtualbox_androidx86/</loc>
+    <lastmod>2018-08-25T15:39:24.909Z</lastmod>
+    <data>
+        <display>
+        <title>virtualbox_android x86 install tips</title>
+        <pubTime>2018-08-25T14:30:02.936Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/02/p3_ubuntu_setting/</loc>
+    <lastmod>2018-08-25T15:39:18.979Z</lastmod>
+    <data>
+        <display>
+        <title>ubuntu_setting</title>
         <pubTime>2018-08-02T11:36:10.512Z</pubTime>
         
          
@@ -19,8 +49,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/22/P2_Git_Github_npm/</loc>
-    <lastmod>2018-08-25T15:06:03.028Z</lastmod>
+    <loc>http://yoursite.com/2018/06/22/p2_Git_Github_npm/</loc>
+    <lastmod>2018-08-25T15:39:08.871Z</lastmod>
     <data>
         <display>
         <title>Git Github npm Tips</title>
@@ -34,27 +64,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/22/P1_markdown_format/</loc>
-    <lastmod>2018-08-25T15:05:49.804Z</lastmod>
+    <loc>http://yoursite.com/2018/06/22/p1_markdown_format/</loc>
+    <lastmod>2018-08-25T15:38:56.058Z</lastmod>
     <data>
         <display>
         <title>Markdown 语法测试</title>
         <pubTime>2018-06-22T05:04:15.010Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/06/20/P0_hello-world/</loc>
-    <lastmod>2018-08-25T15:05:42.450Z</lastmod>
-    <data>
-        <display>
-        <title>Hello Worldd</title>
-        <pubTime>2018-06-20T12:51:40.048Z</pubTime>
         
          
            
