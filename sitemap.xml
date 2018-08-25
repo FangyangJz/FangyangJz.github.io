@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/08/25/p4_virtualbox_androidx86/</loc>
+    <loc>http://yoursite.com/2018/08/25/virtualbox_androidx86/</loc>
     
-    <lastmod>2018-08-25T15:47:07.308Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/06/20/p0_hello-world/</loc>
-    
-    <lastmod>2018-08-25T15:42:07.610Z</lastmod>
+    <lastmod>2018-08-25T16:09:59.020Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/02/p3_ubuntu_setting/</loc>
+    <loc>http://yoursite.com/2018/08/02/ubuntu_setting/</loc>
     
-    <lastmod>2018-08-25T15:39:18.979Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/06/22/p2_Git_Github_npm/</loc>
-    
-    <lastmod>2018-08-25T15:39:08.871Z</lastmod>
+    <lastmod>2018-08-25T16:09:06.221Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/06/22/p1_markdown_format/</loc>
+    <loc>http://yoursite.com/2018/06/22/Git_Github_npm/</loc>
     
-    <lastmod>2018-08-25T15:38:56.058Z</lastmod>
+    <lastmod>2018-08-25T16:08:57.740Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/22/markdown_format/</loc>
+    
+    <lastmod>2018-08-25T16:08:51.914Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/20/hello-world/</loc>
+    
+    <lastmod>2018-08-25T16:08:47.230Z</lastmod>
     
   </url>
   

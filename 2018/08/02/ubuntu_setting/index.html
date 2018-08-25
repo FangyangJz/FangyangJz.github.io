@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="Cache-Control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>virtualbox_android x86 install tips · FangyangJz&#39; Blog</title>
+    <title>ubuntu_setting · FangyangJz&#39; Blog</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -210,7 +210,7 @@
                 <a href="/" >FangyangJz&#39;s Blog</a>
             </div>
             <div class="post-title">
-                <a href="#" class="post-name">virtualbox_android x86 install tips</a>
+                <a href="#" class="post-name">ubuntu_setting</a>
             </div>
     </div>
     
@@ -242,7 +242,7 @@ height:50vh;
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            virtualbox_android x86 install tips
+            ubuntu_setting
             <!-- 404 -->
             
         </h1>
@@ -261,12 +261,12 @@ height:50vh;
                 
                 
                     <div class="post-intro-read">
-                        <span>Word count: <span class="post-count">500</span> / Reading time: <span class="post-count">2 min</span></span>
+                        <span>Word count: <span class="post-count">105</span> / Reading time: <span class="post-count">1 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
                     <span class="post-intro-calander iconfont-archer">&#xe676;</span>
-                    <span class="post-intro-time">2018/08/25</span>
+                    <span class="post-intro-time">2018/08/02</span>
                     
                     <span id="busuanzi_container_page_pv" class="busuanzi-pv">
                         <span class="iconfont-archer">&#xe602;</span>
@@ -390,39 +390,15 @@ height:50vh;
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <h2 id="1-Docker启动了win10的VT独占-导致virtualbox无法使用"><a href="#1-Docker启动了win10的VT独占-导致virtualbox无法使用" class="headerlink" title="1. Docker启动了win10的VT独占, 导致virtualbox无法使用"></a>1. Docker启动了win10的VT独占, 导致virtualbox无法使用</h2><p>管理员身份powershell命名搞定</p>
-<p>dism.exe /Online /Disable-Feature:Microsoft-Hyper-V</p>
-<p><a href="https://superuser.com/questions/1153470/vt-x-is-not-available-but-is-enabled-in-bios" target="_blank" rel="noopener">详细解决办法链接</a></p>
-<h2 id="2-VirtualBox-5-2-8-适用android-x86版本"><a href="#2-VirtualBox-5-2-8-适用android-x86版本" class="headerlink" title="2. VirtualBox 5.2.8 适用android x86版本"></a>2. VirtualBox 5.2.8 适用android x86版本</h2><p>(vBox 鼠标切回windows的快捷键是 右ctrl键)</p>
-<p>android x86 7.1 无法安装;</p>
-<p>android x86 6.0 32bit 可以, vbox选 Linux 2.x 32bit<br>相关文档网上很多, 安装步骤基本都差不多;</p>
-<p>Vbox 网络选择桥接模式, 鼠标选PS2那个, 3D图形加速可以勾选上</p>
-<h2 id="3-初次跳过配置向导"><a href="#3-初次跳过配置向导" class="headerlink" title="3. 初次跳过配置向导"></a>3. 初次跳过配置向导</h2><p>国内无法上google, 需要跳过android配置向导, 方法是用鼠标顺时针点击屏幕四个角, 西北-&gt;东北-&gt;东南-&gt;西南</p>
-<hr>
-<p>到这里, 发现可以用android浏览器上网, 但是无法进行apk下载;</p>
-<p>想到首先尝试了vbox共享文件夹, 但是没有成功;</p>
-<p>又想到用adb连接, 然后将本地下载好的apk推送过去, 成功!</p>
-<hr>
-<h2 id="4-开启开发者模式"><a href="#4-开启开发者模式" class="headerlink" title="4. 开启开发者模式"></a>4. 开启开发者模式</h2><p>原声android进入设置, 关于平板电脑-&gt;点击6~7次 <strong>版本号</strong> (会有提示信息), 进去后给adb开启读写权限, 为后续调试做准备</p>
-<h2 id="5-android较常用快捷键的有："><a href="#5-android较常用快捷键的有：" class="headerlink" title="5. android较常用快捷键的有："></a>5. android较常用快捷键的有：</h2><p>更多详细android x86 配置和命令, <a href="http://blog.sina.com.cn/s/blog_719d31580101cvcd.html" target="_blank" rel="noopener">参考链接</a></p>
-<ul>
-<li>Alt-F1 = 进入 console 模式(用这个进入命令行 dhcpcd eth0 两次看到的 IP 地址)</li>
-<li>Alt-F7 = 回到 GUI 模式</li>
-<li>Alt-F9 = 图形界面</li>
-<li>Alt-F10 = 画面旋转 180 度</li>
-<li>Alt-F10 = 画面旋转 180 度</li>
-<li>Alt-F11 = 画面向左旋转 90 度</li>
-<li>Alt-F12 = 画面向右旋转 90 度</li>
-<li>Ctrl-P = 开启Android设定画面</li>
-<li>“Windows 键”相当于 Android 的 Home 按钮。</li>
-<li>“Esc” 相当于 Android 的 Back 按钮</li>
-<li>F2 相当于 Android 的 Menu 按钮</li>
-<li>F3 相当于 Android 的 Search 按钮</li>
-<li>右边的菜单键（win和ctrl中间的键） = Android菜单</li>
-</ul>
-<h2 id="6-adb-命令相关"><a href="#6-adb-命令相关" class="headerlink" title="6. adb 命令相关"></a>6. adb 命令相关</h2><p>本机命令行 adb connected [android x86 ip 地址] </p>
-<p>成功后   adb devices 可以看到设备</p>
-<p>推送本地文件方法: adb push [src path] [destination path]</p>
+        <p>Ubuntu 下安装pycharm 以及创建桌面快捷方式</p>
+<p>sudo gedit /usr/share/applications/pycharm.desktop</p>
+<blockquote>
+<p>[Desktop Entry]<br>Type=Application<br>Name=Pycharm<br>GenericName=Pycharm3<br>Comment=Pycharm3:The Python IDE<br>Exec=sh /home/cxiansheng/下载/pycharm-community-2018.1.2/bin/pycharm.sh<br>Icon=/home/cxiansheng/下载/pycharm-community-2018.1.2/bin/pycharm.png<br>Terminal=pycharm<br>Categories=Pycharm;</p>
+</blockquote>
+<h3 id="ubuntu18-04下使用alt-ctrl-t无响应解决方法"><a href="#ubuntu18-04下使用alt-ctrl-t无响应解决方法" class="headerlink" title="ubuntu18.04下使用alt+ctrl+t无响应解决方法"></a>ubuntu18.04下使用alt+ctrl+t无响应解决方法</h3><p>.自定义terminal快捷方式</p>
+<p>Name：自己随便起</p>
+<p>Command：gnome-terminal</p>
+<p>shortcut：设置自己喜欢的</p>
 
     </article>
     <!-- license  -->
@@ -431,12 +407,17 @@ height:50vh;
     <ul class="post-paginator">
         <li class="next">
             
+                <div class="nextSlogan">Next Post</div>
+                <a href= "/2018/08/25/virtualbox_androidx86/" title= virtualbox_android x86 install tips >
+                    <div class="nextTitle">virtualbox_android x86 install tips</div>
+                </a>
+            
         </li>
         <li class="previous">
             
                 <div class="prevSlogan">Previous Post</div>
-                <a href= "/2018/08/02/p3_ubuntu_setting/" title= ubuntu_setting >
-                    <div class="prevTitle">ubuntu_setting</div>
+                <a href= "/2018/06/22/Git_Github_npm/" title= Git Github npm Tips >
+                    <div class="prevTitle">Git Github npm Tips</div>
                 </a>
             
         </li>
@@ -550,7 +531,7 @@ top:50vh;
         <div class="toc-catalog">
             <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
         </div>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Docker启动了win10的VT独占-导致virtualbox无法使用"><span class="toc-number">1.</span> <span class="toc-text">1. Docker启动了win10的VT独占, 导致virtualbox无法使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-VirtualBox-5-2-8-适用android-x86版本"><span class="toc-number">2.</span> <span class="toc-text">2. VirtualBox 5.2.8 适用android x86版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-初次跳过配置向导"><span class="toc-number">3.</span> <span class="toc-text">3. 初次跳过配置向导</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-开启开发者模式"><span class="toc-number">4.</span> <span class="toc-text">4. 开启开发者模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-android较常用快捷键的有："><span class="toc-number">5.</span> <span class="toc-text">5. android较常用快捷键的有：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-adb-命令相关"><span class="toc-number">6.</span> <span class="toc-text">6. adb 命令相关</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#ubuntu18-04下使用alt-ctrl-t无响应解决方法"><span class="toc-number">1.</span> <span class="toc-text">ubuntu18.04下使用alt+ctrl+t无响应解决方法</span></a></li></ol>
     </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
@@ -634,7 +615,7 @@ top:50vh;
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href= "/2018/08/25/p4_virtualbox_androidx86/" >virtualbox_android x86 install tips</a>
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href= "/2018/08/25/virtualbox_androidx86/" >virtualbox_android x86 install tips</a>
         </li>
     
     
@@ -648,22 +629,22 @@ top:50vh;
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">08/02</span><a class="archive-post-title" href= "/2018/08/02/p3_ubuntu_setting/" >ubuntu_setting</a>
+            <span class="archive-post-date">08/02</span><a class="archive-post-title" href= "/2018/08/02/ubuntu_setting/" >ubuntu_setting</a>
         </li>
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">06/22</span><a class="archive-post-title" href= "/2018/06/22/p2_Git_Github_npm/" >Git Github npm Tips</a>
+            <span class="archive-post-date">06/22</span><a class="archive-post-title" href= "/2018/06/22/Git_Github_npm/" >Git Github npm Tips</a>
         </li>
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">06/22</span><a class="archive-post-title" href= "/2018/06/22/p1_markdown_format/" >Markdown 语法测试</a>
+            <span class="archive-post-date">06/22</span><a class="archive-post-title" href= "/2018/06/22/markdown_format/" >Markdown 语法测试</a>
         </li>
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">06/20</span><a class="archive-post-title" href= "/2018/06/20/p0_hello-world/" >Hello Worldd</a>
+            <span class="archive-post-date">06/20</span><a class="archive-post-title" href= "/2018/06/20/hello-world/" >Hello Worldd</a>
         </li>
     
     </div>

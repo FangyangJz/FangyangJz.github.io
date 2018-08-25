@@ -4,8 +4,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/08/25/p4_virtualbox_androidx86/</loc>
-    <lastmod>2018-08-25T15:47:07.308Z</lastmod>
+    <loc>http://yoursite.com/2018/08/25/virtualbox_androidx86/</loc>
+    <lastmod>2018-08-25T16:09:59.020Z</lastmod>
     <data>
         <display>
         <title>virtualbox_android x86 install tips</title>
@@ -19,23 +19,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/20/p0_hello-world/</loc>
-    <lastmod>2018-08-25T15:42:07.610Z</lastmod>
-    <data>
-        <display>
-        <title>Hello Worldd</title>
-        <pubTime>2018-06-20T12:51:40.048Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/08/02/p3_ubuntu_setting/</loc>
-    <lastmod>2018-08-25T15:39:18.979Z</lastmod>
+    <loc>http://yoursite.com/2018/08/02/ubuntu_setting/</loc>
+    <lastmod>2018-08-25T16:09:06.221Z</lastmod>
     <data>
         <display>
         <title>ubuntu_setting</title>
@@ -49,8 +34,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/22/p2_Git_Github_npm/</loc>
-    <lastmod>2018-08-25T15:39:08.871Z</lastmod>
+    <loc>http://yoursite.com/2018/06/22/Git_Github_npm/</loc>
+    <lastmod>2018-08-25T16:08:57.740Z</lastmod>
     <data>
         <display>
         <title>Git Github npm Tips</title>
@@ -64,12 +49,27 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/06/22/p1_markdown_format/</loc>
-    <lastmod>2018-08-25T15:38:56.058Z</lastmod>
+    <loc>http://yoursite.com/2018/06/22/markdown_format/</loc>
+    <lastmod>2018-08-25T16:08:51.914Z</lastmod>
     <data>
         <display>
         <title>Markdown 语法测试</title>
         <pubTime>2018-06-22T05:04:15.010Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/06/20/hello-world/</loc>
+    <lastmod>2018-08-25T16:08:47.230Z</lastmod>
+    <data>
+        <display>
+        <title>Hello Worldd</title>
+        <pubTime>2018-06-20T12:51:40.048Z</pubTime>
         
          
            
