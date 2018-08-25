@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/06/22/Git_Github_npm/</loc>
+    <loc>http://yoursite.com/2018/08/02/P3_ubuntu_setting/</loc>
     
-    <lastmod>2018-06-22T05:17:34.376Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/06/22/markdown_format/</loc>
-    
-    <lastmod>2018-06-22T05:04:15.011Z</lastmod>
+    <lastmod>2018-08-25T15:06:11.092Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/06/20/hello-world/</loc>
+    <loc>http://yoursite.com/2018/06/22/P2_Git_Github_npm/</loc>
     
-    <lastmod>2018-06-20T13:49:04.358Z</lastmod>
+    <lastmod>2018-08-25T15:06:03.028Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/22/P1_markdown_format/</loc>
+    
+    <lastmod>2018-08-25T15:05:49.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/06/20/P0_hello-world/</loc>
+    
+    <lastmod>2018-08-25T15:05:42.450Z</lastmod>
     
   </url>
   
